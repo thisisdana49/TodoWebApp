@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 
-public class TodoDTO {
+public class TodoDTO<T> {
     private String id;
     private String title;
     private boolean done;
